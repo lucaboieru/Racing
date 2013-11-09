@@ -1,0 +1,14 @@
+{
+"name": "Racing",
+  "subdomain": "racing",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "socket.io": "0.x.x"
+    },
+    "version": "0.1.0",
+    "engines": {
+        "node": "v0.10.x"
+    }
+}

@@ -6,7 +6,7 @@ function start () {
     myPlayer = new Player (100, 100);
     remotePlayers = [];
     
-    socket = io.connect("http://localhost", {port: 7777, transports: ["websocket"]});
+    socket = io.connect("http://racing.nodejitsu.com", {port: 80, transports: ["websocket"]});
 
     setEventHandlers();
 }
