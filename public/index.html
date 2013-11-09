@@ -2,6 +2,7 @@
 
 <head>
     <title>Race your friends</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
@@ -13,9 +14,12 @@
     <script src="js/engine.js"></script>
 
     <div id="game"></div>
-    
+    <button id="start">Start</button>
     <script>
-        start();
+        $("#start").click(function () {
+            start();
+            startEngine();
+        });
     </script>
 
 </body>

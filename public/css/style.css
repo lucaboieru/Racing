@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(circuit.jpg);
+    background-size: 1280px 750px;
+    background-repeat:no-repeat;
+}
+
+.car {
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    background-image: url("../res/car.png");
+    -webkit-transform: rotate(0deg);
+}
+
+#myCar {
+    left: 150px;
+    border: 2px dashed #bc0000;
+    border-radius: 2px;
+}
